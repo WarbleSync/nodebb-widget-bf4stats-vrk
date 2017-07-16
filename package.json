@@ -9,6 +9,7 @@
   "author": "WarbleSync",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.5.0",
     "battlefield-stats": "^1.0.8",
     "mongodb": "^2.2.30"
   }
