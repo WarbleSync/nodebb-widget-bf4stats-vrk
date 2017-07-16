@@ -1,0 +1,19 @@
+{
+    "id": "nodebb-widget-bf4stats-vrk",
+    "name": "NodeBB Battlefield 4 Stats VRK",
+    "description": "Battlefield 4 Stats plugin for NodeBB.",
+    "url": "https://github.com/WarbleSync/nodebb-widget-bf4stats-vrk.git",
+    "library": "./library.js",
+    "staticDirs": {
+        "public": "public"
+    },
+    "hooks": [
+      { "hook": "static:app.load", "method": "init" },
+      { "hook": "filter:widget.render:bf4stats-vrk", "method": "renderBF4StatsWidget" },
+      { "hook": "filter:widgets.getWidgets", "method": "defineWidgets" }
+    ],
+    "css": [
+    	"./public/css/style.css"
+    ],
+    "templates": "./public/templates"
+}

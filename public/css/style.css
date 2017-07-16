@@ -1,0 +1,30 @@
+.op_badge {
+  max-width: 75px;
+}
+
+.op_bust {
+  max-height: 200px;
+}
+
+.player-image{
+    max-width: 64px !important;
+}
+
+div.statsToggle {
+  min-height: 90px;
+  display: block;
+}
+
+.table-header{
+  padding: 10px;
+}
+
+.table-title{
+  padding: 10px;
+}
+
+.table-row{
+  padding: 10px;
+  /*min-height: 100px;*/
+  display: block;
+}
