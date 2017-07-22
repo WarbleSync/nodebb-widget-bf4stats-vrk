@@ -131,7 +131,7 @@ Widget.updateStats = function(){
 	        // console.log(JSON.stringify(origin_ids))
 	        async.each(origin_ids,
 	          function(u,cb){
-	            var params = {platform: bf.Platforms.PC, displayName: u.origin_id, game: 'tunguska'}
+	            var params = {platform: bf.Platforms.PC, displayName: u.origin_id, game: 'bf4'}
 	            bf.Api.request('/Stats/BasicStats', params, function(err,res){
 	              if(!err && res){
 	                if(res.successful == true){
